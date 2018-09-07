@@ -1503,6 +1503,8 @@
         });
     }(jQuery, document));
 
+    return jQuery.jCarousel;
+
 })(jQuery, window, document);
 
 });
