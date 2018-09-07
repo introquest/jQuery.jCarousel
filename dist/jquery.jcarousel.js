@@ -24,7 +24,9 @@
     (function($) {
         'use strict';
 
-        var jCarousel = $.jCarousel = {};
+        var jCarousel = $.jCarousel = function(element, options) {
+            return $(element).jcarousel(options);
+        };
 
         jCarousel.version = '0.3.9';
 
