@@ -16,7 +16,7 @@
         commonjs= !amd && typeof module == 'object' && typeof module.exports == 'object' && (module.exports= factory),
         plain= !amd && !commonjs && factory(jQuery)
 
-})(function(jQuery){ return jQuery.jCarousel || (function($, window, document, undefined){
+})(function(jQuery){ return jQuery.jCarousel || (function(jQuery, window, document, undefined){
 
     /*! jCarousel - v0.3.9 - 2018-07-30
     * http://sorgalla.com/jcarousel/
